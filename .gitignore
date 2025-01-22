@@ -1,0 +1,14 @@
+# Ignore Laravel-specific files
+backend/vendor/
+backend/node_modules/
+backend/storage/
+backend/.env
+backend/.env.example
+
+# Ignore React-specific files
+frontend/node_modules/
+frontend/build/
+
+# General ignores
+*.log
+.DS_Store
