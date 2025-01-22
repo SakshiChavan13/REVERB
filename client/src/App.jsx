@@ -6,8 +6,8 @@ import "./App.css";
 function App() {
   const [data, setData] = useState(0);
 
-  const handleClick = () => {
-    const response = fetch("http://127.0.0.1:8000/api/user/login", {
+  const handleClick = async () => {
+    const response = await fetch("http://127.0.0.1:8000/api/user/login", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
